@@ -5,10 +5,10 @@ spring:
     database: POSTGRESQL
     show-sql: true
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
   datasource:
     #platform: postgres
-    url: jdbc:postgresql://localhost:5432/employee
+    url: jdbc:postgresql://localhost:5432/register
     username: postgres
     password: admin
     driverClassName: org.postgresql.Driver
