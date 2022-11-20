@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: upload-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+  datasource:
+    url: jdbc:postgresql://localhost:5432/register
+    username: postgres
+    password: admin
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update   
